@@ -8,6 +8,6 @@ import { Product } from "../products";
 })
 export class ProductAlertsComponent {
   // property product should be passed as input from the parent component.
-@Input() product! : Product;
+@Input() product !: Product;
 @Output() notifyEventEmitterInChild = new EventEmitter();
 }
