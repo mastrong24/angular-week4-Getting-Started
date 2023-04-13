@@ -12,8 +12,8 @@ export class CartComponent {
   items = this.cartService.getItems();
 
   checkoutForm = this.formBuilder.group({
-    name: '',
-    address: ''
+    name: 'name here',
+    address: 'address here'
   });
 
   constructor(
